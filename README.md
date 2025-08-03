@@ -1,6 +1,6 @@
-# 📧 SPAM-HAM Classification Using Bag of Words (BoW)
+# 📧 SPAM-HAM Classification Using Bag of Words (BoW) And Tf-idf-Vectorizer
 
-This project implements a binary text classification model to detect **spam** or **ham (non-spam)** SMS messages. It uses the **Bag of Words** approach for feature extraction, along with machine learning classification algorithms. Text preprocessing is done using **spaCy**.
+This project implements a binary text classification model to detect **spam** or **ham (non-spam)** SMS messages. It uses the **Bag of Words** and **Tf-idf** approach for feature extraction, along with machine learning classification algorithms. Text preprocessing is done using **spaCy**.
 
 ---
 
@@ -24,7 +24,7 @@ This project implements a binary text classification model to detect **spam** or
 
 ---
 
-## 📊 Model Performance
+## 📊 Model Performance--BOW
 
 ### ✅ Accuracy:
 `0.9596` (≈ 96%)
@@ -41,6 +41,26 @@ This project implements a binary text classification model to detect **spam** or
 - **Weighted Avg F1-score**: 0.96
 
 ---
+
+## 📊 Model Performance--Tf-idf
+
+### ✅ Accuracy:
+`0.978` (≈ 97%)
+
+### 🧾 Classification Report:
+| Label | Precision | Recall | F1-score | Support |
+|-------|-----------|--------|----------|---------|
+| Ham (0) | 0.98    | 1.00   | 0.99     | 966 |
+| Spam (1) | 1.00   | 0.84   | 0.91     | 149 |
+
+
+**Overall Metrics:**
+- **Accuracy**: 0.98
+- **Macro Avg F1-score**: 0.95
+- **Weighted Avg F1-score**: 0.98
+
+---
+
 
 ## 📂 How to Run
 
