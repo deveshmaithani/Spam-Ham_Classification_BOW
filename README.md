@@ -27,31 +27,31 @@ This project implements a binary text classification model to detect **spam** or
 ## 📊 Model Performance--BOW
 
 ### ✅ Accuracy:
-`0.9596` (≈ 96%)
+`0.9802` (≈ 98%)
 
 ### 🧾 Classification Report:
 | Label | Precision | Recall | F1-score | Support |
 |-------|-----------|--------|----------|---------|
-| Ham (0) | 0.99 | 0.96 | 0.98 | 966 |
-| Spam (1) | 0.80 | 0.94 | 0.86 | 149 |
+| Ham (0) | 0.99 | 0.99 | 0.99 | 966 |
+| Spam (1) | 0.92 | 0.93 | 0.93 | 149 |
 
 **Overall Metrics:**
-- **Accuracy**: 0.96
-- **Macro Avg F1-score**: 0.92
-- **Weighted Avg F1-score**: 0.96
+- **Accuracy**: 0.98
+- **Macro Avg F1-score**: 0.96
+- **Weighted Avg F1-score**: 0.98
 
 ---
 
 ## 📊 Model Performance--Tf-idf
 
 ### ✅ Accuracy:
-`0.978` (≈ 97%)
+`0.9766` (≈ 98%)
 
 ### 🧾 Classification Report:
 | Label | Precision | Recall | F1-score | Support |
 |-------|-----------|--------|----------|---------|
-| Ham (0) | 0.98    | 1.00   | 0.99     | 966 |
-| Spam (1) | 1.00   | 0.84   | 0.91     | 149 |
+| Ham (0) | 0.97    | 1.00   | 0.99     | 966 |
+| Spam (1) | 0.99   | 0.83   | 0.91     | 149 |
 
 
 **Overall Metrics:**
